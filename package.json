@@ -1,16 +1,19 @@
 {
   "name": "starting-project-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "This Is My First Projecrt After Learning Node Js",
   "keywords": [
-    "new",
-    "project"
+    "New",
+    "Project"
   ],
   "license": "ISC",
-  "author": "deep vastarpara",
+  "author": "Deep Vastarpara",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
